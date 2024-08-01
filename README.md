@@ -1,5 +1,5 @@
-# Interview_exercise
-This repo is ultilized for keeping my interview excersice for FPT QAI
+# Interview_exercises
+This repo is utilized for keeping my interview exercise for FPT QAI
 
 | Question   | Description  | Github |README|
 | :----------|:-----------------:| :-----:|-----:|
