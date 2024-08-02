@@ -2,8 +2,8 @@
 
 ## Mô tả quá trình
 - **Ý tưởng**:
-    -Dùng mô hình FCNN để học các trích xuất các đặc trưng
-    -Dùng Triplet loss để gom cụm các sample có cùng class lại gần nhau, đồng thời cách xa các sample khác class 
+    - Dùng mô hình FCNN để học các trích xuất các đặc trưng
+    - Dùng Triplet loss để gom cụm các sample có cùng class lại gần nhau, đồng thời cách xa các sample khác class 
 - **Training**:
     - Training theo các batch, cứ trong một batch ta lấy ra 3 list từ tập train là anchor, positive, negative với các element trong anchor và positive có cùng class còn các element trong negative sẽ khác class với anchor
     - Với mỗi list ta sẽ forward qua neural network trích xuất được 3 đặc trưng 
